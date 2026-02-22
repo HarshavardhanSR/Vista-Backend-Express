@@ -1,0 +1,29 @@
+{
+  "name": "opal-webprodogies-express",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.705.0",
+    "@aws-sdk/lib-storage": "^3.705.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "cloudinary": "^2.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "fix-webm-duration": "^1.0.6",
+    "fs": "^0.0.1-security",
+    "hound": "^1.0.5",
+    "nodemon": "^3.1.7",
+    "openai": "^4.103.0",
+    "socket.io": "^4.8.1",
+    "zod": "^3.23.8"
+  }
+}
